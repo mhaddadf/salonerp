@@ -1,0 +1,114 @@
+body {
+	overflow: auto;
+	font-family: Tahoma;
+}
+
+#salonerp-logo {
+	width: 110px;
+}
+
+#main {
+	height: 90%;
+}
+
+#menu {
+	text-align: center;
+}
+
+#menu td {
+	padding: 5px 35px 5px 35px;
+}
+
+#menu p {	
+	cursor: pointer;
+	border-bottom: 2px solid #666666;
+	padding: 5px;
+	font-weight: bold;
+}
+
+#menu p:hover {
+	border-bottom: 2px solid blue;
+}
+
+.styled-select {
+	font-weight: bold;
+	width: 150px;
+	height: 30px;
+	overflow: hidden;
+	background: url(../media/arrow.png) no-repeat right #fff;
+	border: 1px solid #666666;
+	border-radius: 5px;
+}
+
+.styled-select select {
+	background: transparent;
+	width: 160px;
+	padding-left: 10px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 30px;
+	-webkit-appearance: none;
+}
+
+.styled-button {
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #666666;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-right: 5px;
+}
+
+.styled-button:hover, .styled-select:hover {
+	background-color: #dddddd;
+}
+
+textarea, input[type=text], input[type=password] {
+	width: 100%;
+	box-shadow: 5px 5px 2px #cccccc;
+	border: 1px solid #666666;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+	height: 30px;
+}
+
+textarea {
+	height: 70px;
+	min-width: 300px;
+}
+
+#main td {
+	vertical-align: top;
+}
+
+#title {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+#title div {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px 20px 5px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#title h2 {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.verticalLine {
+	height: 100%;
+	border-right: 2px solid grey;
+	margin-left: 5px;
+	margin-right: 5px;
+}

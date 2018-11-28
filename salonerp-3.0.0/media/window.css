@@ -1,0 +1,114 @@
+.inputWindow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	border: 2px solid #666666;
+	padding: 20px;
+	-webkit-box-shadow: 10px 10px 37px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 37px 5px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 37px 5px rgba(0,0,0,0.75);
+	max-width: 100%;
+	table-layout: fixed;
+}
+
+.inputWindow .title {
+	margin-top: 0px;
+	height: 10%;
+}
+
+.inputWindow .scroll {
+	overflow: hidden;
+	height: 80%;
+}
+
+.inputWindow .windowButtons {
+	text-align: right;
+	height: 10%;
+}
+
+.inputWindow  table {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.inputWindow .payWindow input[type=text] {
+	width: 80px;
+	text-align: right;
+}
+
+.inputWindow .payWindow .invoiceItems {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.inputWindow .payWindow .invoiceItems td:nth-child(2) {
+	text-align: right;
+}
+
+.inputWindow .buttonContainer {
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #666666;
+	text-align: center;
+}
+
+.inputWindow a {
+	display: inline-block;
+	margin-top: 8px;
+	cursor: pointer;
+	border-bottom: 2px solid #666666;
+}
+
+.inputWindow a:hover {
+	border-bottom: 2px solid blue;
+}
+
+#payTotal .money {
+	display: inline-block;
+	border: 1px solid #666666;
+	border-radius: 5px;
+	margin: 2px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#payTotal .money:hover {
+	background-color: #dddddd;
+}
+
+#payTotal .money a {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin: 0px auto;
+}
+
+/* mobile devices */
+@media screen and (max-width: 1000px) {
+	body {
+		background: black;
+	}
+
+	.styled-select {
+	/*      padding: 50px, */
+	}
+
+	.styled-button {
+		    padding: 15px 25px 15px 25px;
+	}
+
+	div.dhxcombo_dhx_skyblue, div.dhxcombolist_dhx_skyblue {
+		    font-size: 20px;
+	}
+
+}
